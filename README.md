@@ -8,7 +8,7 @@ INSTALL stm32cubeIde
 
 # pwm
 1. tim2의 경우 apb1 버스를 사용하므로 해당 클럭에 따라 pwm 주기 계산.
-2. 본인의 서보모터는 20ms 주기 사용
+2. 사용한 서보모터는 20ms 주기 사용
 3. prescaler 84-1, ARR reg 20000-1 로 설정하여 주기 50hz(20ms)로 pwm 파형 주파수 변환
 4. servo motor 의 데이터시트 : 
  ① pwm period 20ms, 50hz
