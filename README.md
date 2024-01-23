@@ -12,7 +12,7 @@ INSTALL stm32cubeIde
 3. prescaler 84-1, ARR reg 20000-1 로 설정하여 주기 50hz(20ms)로 pwm 파형 주파수 변환
 4. servo motor 의 데이터시트
  ① pwm period 20ms, 50hz
- ② duty cycle 1~2ms
+ ② duty cycle 1\~2ms
  => 제어를 위한 펄스 폭(듀티사이클) 1ms~2ms(5%~10%)
 5. n% = pulse/(value of arr register) = x/20000
  ① if pulse = 1000, n% = 5%
